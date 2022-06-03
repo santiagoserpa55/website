@@ -1,0 +1,24 @@
+@import url("./main.css");
+footer{
+    text-align: center;
+    display: flex;
+    background-color: var(--bg-color-footer);
+}
+.social-links{
+    padding: 20px;
+   
+}
+svg{
+    cursor: pointer;
+}
+
+.container h1{
+    color: var(--color-text);
+}
+.social-links svg:hover{
+    transform: translateY(-.25em);
+    fill: var(--color-primary);
+}
+.social-links a svg{
+    transition: all .3s ease-in-out;
+}

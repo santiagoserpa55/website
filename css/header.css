@@ -1,0 +1,36 @@
+@import url("./main.css");
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 40px;
+    line-height: 80px;
+    color: var(--color-primary);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+}
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav, ul, li a{
+    color: var(--color-text);
+    text-decoration: none;
+    padding: 5px 18px;
+    border-radius: 6px;
+    transition: all .3s ease-in-out;
+}
+.nav-menu-item {
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 80px;
+}
+
+.nav-menu-item:hover {
+    color: var(--color-grade-fade);
+    text-decoration: underline;
+}

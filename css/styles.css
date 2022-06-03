@@ -1,0 +1,62 @@
+@import url("/css/main.css");
+.container{
+    margin: 0 auto;
+    padding: 15px;
+}
+.intro{
+    margin: 10em 2em;
+    text-align: center;
+}
+.intro h1{
+    font-size: 2.8em;
+    line-height: 1.2;
+    background-image: linear-gradient(45deg,#ff0a78, #43f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 16px;
+}
+.intro p{
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    color: var(--color-text);
+}
+.no-underline{
+    text-decoration: none;
+}
+.border-radius{
+    border-radius: 4px;
+}
+.button--primary{
+    background-color: #43f;
+    color: #fff;
+}
+.button{
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 0;
+    line-height: 16px;
+    padding: 12px 20px;
+    transition: all .4s ease-in-out;
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+.bg-light-grey{
+    background-color: #f7f4f4;
+}
+.stack{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px 15px;
+}
+.tac{
+    text-align: center;
+}
+.bold{
+    font-weight: 600;
+}
+.bold a{
+    color: var(--color-primary);
+}
