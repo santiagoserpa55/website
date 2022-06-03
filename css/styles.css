@@ -14,6 +14,8 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 16px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .intro p{
     font-size: 1.5em;
