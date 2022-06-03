@@ -1,27 +1,28 @@
 @import url("./main.css");
-.logo {
-    font-size: 18px;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 0 40px;
-    line-height: 80px;
-    color: var(--color-primary);
-}
 .nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto; 
+}
+.logo {   
+    width: 100%;
+    font-weight: 700;
+    padding: 0 40px;
+    line-height: 70px;
+}
+.nav .logo a{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--color-primary);
 }
 .nav-menu {
     display: flex;
-    margin-right: 40px;
-    list-style: none;
+    justify-content: center;
+    list-style: none;   
 }
 .nav, ul, li a{
     color: var(--color-text);
     text-decoration: none;
-    padding: 5px 18px;
-    border-radius: 6px;
+    padding: 0 18px;
     transition: all .3s ease-in-out;
 }
 .nav-menu-item {
@@ -29,8 +30,8 @@
     font-size: 15px;
     line-height: 80px;
 }
-
 .nav-menu-item:hover {
-    color: var(--color-grade-fade);
+   
+    border-radius: 6px;
     text-decoration: underline;
 }

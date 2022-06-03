@@ -1,0 +1,15 @@
+@media(max-width:600px){
+    .logo{
+        width: 100%;
+        text-align: center; 
+             
+    }
+    .nav{
+        margin: 0 auto;
+        display: block;
+        margin-top: 0;
+    }
+    .nav .logo a{
+        font-size: 22px;
+    }
+}
