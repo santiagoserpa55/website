@@ -1,8 +1,7 @@
 @media(max-width:600px){
     .logo{
         width: 100%;
-        text-align: center; 
-             
+        text-align: center;     
     }
     .nav{
         margin: 0 auto;
@@ -11,5 +10,15 @@
     }
     .nav .logo a{
         font-size: 22px;
+    }
+    .intro{
+        margin: .5em 0em;
+        padding: 0;
+    }
+    .intro h1{
+        font-size: 2em; 
+    }
+    .intro p{
+        font-size: 1.2em;
     }
 }

@@ -59,6 +59,6 @@
 .bold{
     font-weight: 600;
 }
-.bold a{
+.bold a {
     color: var(--color-primary);
 }
