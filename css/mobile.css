@@ -12,13 +12,14 @@
         font-size: 22px;
     }
     .intro{
-        margin: .5em 0em;
+        margin: 0em 0.5em;
         padding: 0;
     }
-    .intro h1{
-        font-size: 2em; 
+    .intro .parrafo2{
+        font-size: 1.25em; 
     }
     .intro p{
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
+   
 }

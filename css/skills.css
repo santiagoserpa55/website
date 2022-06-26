@@ -2,8 +2,9 @@
 .skills{
     max-width: 960px;
     margin:  0 auto;
-    padding: 30px 15px;
+    padding: 0px 15px;
     text-align: center;
+    margin-top: 1em;
 }
 
 .skills p{

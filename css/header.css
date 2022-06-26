@@ -1,4 +1,7 @@
 @import url("./main.css");
+header{
+    margin-bottom: 3.5em;
+}
 .nav {
     display: flex;
     justify-content: space-between;
@@ -28,7 +31,6 @@
 .nav-menu-item {
     cursor: pointer;
     font-size: 15px;
-    line-height: 80px;
 }
 .nav-menu-item:hover {
    

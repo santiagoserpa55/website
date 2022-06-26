@@ -1,10 +1,10 @@
 @import url("/css/main.css");
 .container{
     margin: 0 auto;
-    padding: 15px;
+    padding: 5px;
 }
 .intro{
-    margin: 6em 2em;
+    margin: 5em 1.5em;
     text-align: center;
 }
 .intro h1{
