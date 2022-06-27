@@ -20,7 +20,8 @@ header{
 .nav-menu {
     display: flex;
     justify-content: center;
-    list-style: none;   
+    list-style: none;
+    align-items: center; 
 }
 .nav, ul, li a{
     color: var(--color-text);
